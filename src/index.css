@@ -12,7 +12,7 @@ body {
 
 .bookList {
   width: 90vw;
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 5em auto;
   display: grid;
   gap: 2em;
@@ -20,6 +20,7 @@ body {
 @media screen and (min-width: 768px) {
   .bookList {
     grid-template-columns: repeat(3, 1fr);
+    /* align-items: flex-start; */
   }
 }
 
@@ -37,4 +38,7 @@ body {
   font-size: 0.8em;
   margin-top: 0.4em;
   letter-spacing: 0.2em;
+}
+.book p {
+  margin-top: 0.5em;
 }
